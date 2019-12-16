@@ -55,11 +55,11 @@ header::before {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; 
-  -webkit-filter: blur(2.8px);
-  -moz-filter: blur(2.8px);
-  -o-filter: blur(2.8px);
-  -ms-filter: blur(2.8px);
-  filter: blur(2.8px);
+  -webkit-filter: blur(3.8px);
+  -moz-filter: blur(3.8px);
+  -o-filter: blur(3.8px);
+  -ms-filter: blur(3.8px);
+  filter: blur(3.8px);
 }
   
   header h1.title {
