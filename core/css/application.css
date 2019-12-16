@@ -57,6 +57,7 @@ header::before {
   -o-filter: blur(3.8px);
   -ms-filter: blur(3.8px);
   filter: blur(3.8px);
+}
   
   header h1.title {
     font-family: 'Raleway';
