@@ -40,8 +40,6 @@ header {
     margin-top: -5.25%;
     transform: skewY(-6deg);
     backface-visibility: hidden;
-
-    transition-duration: 1.3s;
 }
   
   header h1.title {
@@ -78,7 +76,6 @@ header {
   .avatar {
     position: relative;
     margin: 0 0 30px 30px;
-    transition-duration: 1.3s;
   }
 
   .avatar img {
@@ -190,28 +187,23 @@ section {
   
   section h2.mail {
     margin-top: 60px;
-    transition-duration: 1s;
   }
 
   @media only screen and (max-width: 780px) {
     .avatar {
         visibility: hidden;
         opacity: 0;
-        transition-duration: 1.3s;
     }
     header {
         padding-top: 30px;
-        transition-duration: 1.3s;
     }
   }
   @media only screen and (max-width: 370px) {
     section h2.mail {
         font-size: 23px;
-        transition-duration: 1s;
     }
     header {
         padding-top: 0;
-        transition-duration: 1.3s;
     }
   }
 
@@ -223,7 +215,6 @@ section {
   #about a {
     color: #1E88E5;
     text-decoration: none;
-    transition-duration: 1.3s;
   }
 
   #about a:hover {
