@@ -54,7 +54,7 @@ header::before {
   background-image: url('../images/banner-v3-compressed.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center; 
+  background-position: right; 
   -webkit-filter: blur(3.8px);
   -moz-filter: blur(3.8px);
   -o-filter: blur(3.8px);
