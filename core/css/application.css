@@ -144,9 +144,13 @@ section {
     margin-bottom: 220px;
   }
   
-  section .technos i {
+  section .technos i, svg {
     font-size: 70px;
-    margin: 5px;
+  }
+
+  section .technos svg {
+    font-size: 70px;
+    margin: 0 0 -3px 5px;
   }
   
   section.colored {
