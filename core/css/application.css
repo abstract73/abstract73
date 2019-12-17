@@ -399,6 +399,27 @@ BOUTTON
           animation-delay: 1s;
 }
 
+@media only screen and (max-width: 1200px) {
+  .button_challenge a {
+    position: absolute;
+    margin-top: 7px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: 
+    #ecf0f1;
+    padding: 20px 10px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    overflow: hidden;
+    transition-duration: 1s;
+    width: 250px;
+  }
+}
+
+
 @-webkit-keyframes animate1 {
   0% {
     -webkit-transform: translateX(-100%);
